@@ -2,6 +2,7 @@
 
 
 
+
 **
 
 ## Background
@@ -15,7 +16,8 @@ For the current situation, Hong Kong observatory conduct a traditional weather f
 
 **
 There are two purposes of my project. One of the purposeis to forecast the status of weather in the August of specific year. I will demonstrate the result through using decision tree regression and show the output for the status of wet or heat. Another aim is to predict the temperature using different algorithms like linear regression, random forest regression and K-nearest neighbor regression. The output value should be numerical based on multiple extra factors like population density and air health quality.
-![enter image description here](https://picasaweb.google.com/100537111735853094546/6759024547850924401#6759024545846583314)
+
+![enter image description here](https://lh3.googleusercontent.com/43WkMUHGBC12Fap74eYDH-rsIg7BgmaeAev2f_xhoa1hg678kmiQbIEawUfKkjOjsrvpzhzUIvy9 "experiment")
 
 **
 
@@ -106,3 +108,4 @@ wxPython
 **Debugging & Testing**: Jupyter Notebook
 **Data Format**: Microsoft Excel
 
+```
