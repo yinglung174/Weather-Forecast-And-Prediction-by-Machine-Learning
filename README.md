@@ -24,88 +24,88 @@ There are two purposes of my project. One of the purposeis to forecast the statu
 ## Purpose (Detail)
 
 **
-To forecast the status of weather in the August of next year
-**ML Algorithm**: Decision Tree Regression
-**Status**: wet and heat 
-**Output Value**: Yes / No
-To predict the temperature using Different Algorithms
+To forecast the status of weather in the August of next year<br/>
+**ML Algorithm**: Decision Tree Regression<br/>
+**Status**: wet and heat <br/>
+**Output Value**: Yes / No<br/>
+To predict the temperature using Different Algorithms<br/>
 **ML Algorithms**: Linear Regression,
-	 	Random Forest Regression, K-Nearest Neighbor
-**Output Value**: Numerical
+	 	Random Forest Regression, K-Nearest Neighbor<br/>
+**Output Value**: Numerical<br/>
 
-**Algorithm - Decision Tree:**  builds regression or classification models in the form of a tree structure
-**Algorithm - Linear Regression:** performs the task to predict a dependent variable value (y) based on a given independent variable (x)
-**Algorithm - Random Forest Regression:** performing both regression and classification tasks using multiple decision trees and a statistical technique called bagging
-**Algorithm - K-Nearest Neighbor Regression**
+**Algorithm - Decision Tree:**  builds regression or classification models in the form of a tree structure<br/>
+**Algorithm - Linear Regression:** performs the task to predict a dependent variable value (y) based on a given independent variable (x)<br/>
+**Algorithm - Random Forest Regression:** performing both regression and classification tasks using multiple decision trees and a statistical technique called bagging<br/>
+**Algorithm - K-Nearest Neighbor Regression**<br/>
 
-**Data Source:** Hong Kong Observatory, aqhi.gov.hk
-**Dynamic Data:** August of 1999 - 2019
-**Static Data:** June of 2014 - 2019
+**Data Source:** Hong Kong Observatory, aqhi.gov.hk<br/>
+**Dynamic Data:** August of 1999 - 2019<br/>
+**Static Data:** June of 2014 - 2019<br/>
 
 **
 
 ## Data Description:
 
 **
-**mean_temp:** mean air temperature
-**max_temp:** mean daily maximum air temperature
-**min_temp:** mean daily minimum air temperature
-**meanhum:** mean relative humidity
-**meandew:** mean dew point temperature
-**pressure:** mean daily air pressure
-**heat:** true when mean air temperature is over or equal to 30
-**wet:** true when mean relative humidity is over or equal to 80
-**Mean_cloud:** mean cloud
-**population:** population density
-**Sunshine_hour:** mean number of hour of sunshine
-**Wind_direction:** mean wind direction
-**Wind_speed:** mean wind speed
-**Air_health_quality:** mean daily air health quality
+**mean_temp:** mean air temperature<br/>
+**max_temp:** mean daily maximum air temperature<br/>
+**min_temp:** mean daily minimum air temperature<br/>
+**meanhum:** mean relative humidity<br/>
+**meandew:** mean dew point temperature<br/>
+**pressure:** mean daily air pressure<br/>
+**heat:** true when mean air temperature is over or equal to 30<br/>
+**wet:** true when mean relative humidity is over or equal to 80<br/>
+**Mean_cloud:** mean cloud<br/>
+**population:** population density<br/>
+**Sunshine_hour:** mean number of hour of sunshine<br/>
+**Wind_direction:** mean wind direction<br/>
+**Wind_speed:** mean wind speed<br/>
+**Air_health_quality:** mean daily air health quality<br/>
 
 **
 
 ## System Requirement:
 
 **
-Python 3.6
-BeautifulSoup
-Pandas
-Numpy
-Matplotlib
-Seaborn
-Openpyxl
-Sklearn
-wxPython
+Python 3.6<br/>
+BeautifulSoup<br/>
+Pandas<br/>
+Numpy<br/>
+Matplotlib<br/>
+Seaborn<br/>
+Openpyxl<br/>
+Sklearn<br/>
+wxPython<br/>
 
 **
 
 ## Function of Program:
 
 **
-**‘Forecast’ Button**: Forecast the status of weather in the August of next year
-**‘Activate Auto-Forecast’ Button**: Periodically forecast the status of weather
-**‘Prediction’ Button**: Predict the mean temperature based on other factors
+**‘Forecast’ Button**: Forecast the status of weather in the August of next year<br/>
+**‘Activate Auto-Forecast’ Button**: Periodically forecast the status of weather<br/>
+**‘Prediction’ Button**: Predict the mean temperature based on other factors<br/>
 
 **
 
 ## User Guide:
 
 **
-**Step 1**: Download & Install Python 3.6
-**Step 2**: Go to Terminal & Download Python Library (py -3.6 –m pip install ____)
-**Step 3**: Go to ‘Weather_Prediction’ folder & click GUI.cpython-36
-**Step 4**: The forecast result will be stored in ‘prediction’ folder. The prediction statistics will be stored in ‘statistics’ folder
+**Step 1**: Download & Install Python 3.6<br/>
+**Step 2**: Go to Terminal & Download Python Library (py -3.6 –m pip install ____)<br/>
+**Step 3**: Go to ‘Weather_Prediction’ folder & click GUI.cpython-36<br/>
+**Step 4**: The forecast result will be stored in ‘prediction’ folder. The prediction statistics will be stored in ‘statistics’ folder<br/>
 
 **
 
 ## Developer Tools:
 
 **
-**Programming Language**: Python
-**IDE**: PyCharm
-**GUI**: wxPython, wxFormBuilder
-**Web Scraping**: BeautifulSoup, ParseHub
-**Debugging & Testing**: Jupyter Notebook
-**Data Format**: Microsoft Excel
+**Programming Language**: Python<br/>
+**IDE**: PyCharm<br/>
+**GUI**: wxPython, wxFormBuilder<br/>
+**Web Scraping**: BeautifulSoup, ParseHub<br/>
+**Debugging & Testing**: Jupyter Notebook<br/>
+**Data Format**: Microsoft Excel<br/>
 
 ```
