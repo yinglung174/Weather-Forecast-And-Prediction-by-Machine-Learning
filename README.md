@@ -1,1 +1,8 @@
 # Weather-Forecast-And-Prediction-by-Machine-Learning
+
+Background
+For the current situation, Hong Kong observatory conduct a traditional weather forecasting. There are four common methods to predict weather. The first method is climatology method that is reviewing weather statistics gathered over multiple years and calculating the averages.The second method is analog method that is to find a day in the past with weather similar to the current forecast. The third method is persistence and trends method that has no skill to predict the weather because it relies on past trends. The fourth method isnumerical weather prediction the is making weather predictions based on multiple conditions in atmosphere such as temperatures, wind speed, high-and low-pressure systems, rainfall, snowfall and other conditions.So,there are many limitations of these traditional methods. Not only It forecasts the temperature in the current month at most, but also it predicts without using machine learning algorithms.Therefore, my project is to increase the accuracy and predict weather in the future at least one month through applying machine learning techniques.
+
+Objective
+There are two purposes of my project. One of the purposeis to forecast the status of weather in the August of specific year. I will demonstrate the result through using decision tree regression and show the output for the status of wet or heat. Another aim is to predict the temperature using different algorithms like linear regression, random forest regression and K-nearest neighbor regression. The output value should be numerical based on multiple extra factors like population density and air health quality.
+
