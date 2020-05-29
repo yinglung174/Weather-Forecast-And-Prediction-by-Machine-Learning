@@ -1,6 +1,12 @@
 # Weather-Forecast-And-Prediction-by-Machine-Learning
 
-<img src="https://lh3.googleusercontent.com/EuDyZTbTi0tpbVTpHFNWGTJx3McgtXM0Tl2HjXp8BXkZOWsMUtIt4sNk8nDXTA9xsjqX_pVZiQEnBmyt3MOReW9JWe25C0oD5608YNBTpYzwGzxbwfkjc-bUmZ6lvvuvQUo0Xub7IhXPrtdlNiLpSu4F33eVAftwcUwVRcoLKhCAK60qG0SJVGf_j8STSG6Q3VX_X0KriID_LqTUjMSi-SwsQ6jlEorPfDSubUzuYf_AjZ2B1780s7v4qDy_GRquH-CX2yJ6BmW3IL9BjKxYdisvBIar6o0JT2Su92M1aSphIjVGB2I6UDFcEw78T8YUIUJJ8pHjRDQO6kQEV0ZdzJGwEiZnbYBDFVbw_NfT3qiK3dTgss5TljnSWMo2PWn5bG8knK9BOgOWIaE2Qh8tiB6e9YSJ7DrFQ8VFn9BY3DK6u6LP7RXwde2-Zzqs6FqsV7aAnhxdfe54VMyr7c4Xp_Mp5S-BBDKhsH49rx5lwUWuAOyyoeTnOs6iwbk2cbmPuIn4njrIRTOnl_nQZNCNXYN2m7VLkPwXplcaDZXjSwPKMcw0ZqWSnymWPjCSZk8fCdtnMmj9XUOSXoGulgROAEirQCRm8ni-AsqorPEtoxbHjzfKvfMtS4BJP_Q4es0arFNKRQv775hkul9WB9HFALNmWfxUdpmOkUDgIG4Vh4-pU7FCM3I9Y3__aXd9ILc=s512" />
+![image](https://user-images.githubusercontent.com/37294801/83221305-09402d80-a1a8-11ea-83e4-79625d909a15.png)
+![image](https://user-images.githubusercontent.com/37294801/83221317-11986880-a1a8-11ea-914e-9747e9c71066.png)
+![image](https://user-images.githubusercontent.com/37294801/83221323-152bef80-a1a8-11ea-837b-492af14a426f.png)
+![image](https://user-images.githubusercontent.com/37294801/83221359-32f95480-a1a8-11ea-86a3-8afbf754a2af.png)
+![image](https://user-images.githubusercontent.com/37294801/83221420-5ae8b800-a1a8-11ea-9aa5-755cc495aa57.png)
+![image](https://user-images.githubusercontent.com/37294801/83221401-502e2300-a1a8-11ea-8639-19284354128f.png)
+
 
 **
 
