@@ -3,20 +3,26 @@ import os
 import time
 class Mywin(wx.Frame): 
    def __init__(self, parent, title): 
-      super(Mywin, self).__init__(parent, title = title,size = (400,300))
+      super(Mywin, self).__init__(parent, title = title,size = (600,400))
       panel = wx.Panel(self) 
-      vbox = wx.BoxSizer(wx.VERTICAL) 
+      vbox = wx.BoxSizer() 
+      self.SetBackgroundColour((51, 153, 255, 150))
          
-      self.btn = wx.Button(panel,-1," Forecast ")
-      vbox.Add(self.btn,0,wx.ALIGN_CENTER) 
+      self.btn = wx.Button(panel,-1," Forecast ", pos =(250, 20), size=(100, 50))
+      self.btn.SetBackgroundColour((150, 255, 153,200))
+      # self.btn.SetSize((200, 100))
+      # vbox.Add(self.btn) 
       self.btn.Bind(wx.EVT_BUTTON,self.OnClicked) 
 
-      self.tbtn = wx.ToggleButton(panel , -1, "Activate Auto-Forecast")
-      vbox.Add(self.tbtn,0,wx.EXPAND|wx.ALIGN_CENTER)
+      wx.SizerFlags.DisableConsistencyChecks() 
+      self.tbtn = wx.ToggleButton(panel , -1, "Activate Auto-Forecast", size=(200, 50), pos=(200, 100))
+      self.tbtn.SetBackgroundColour((255, 0, 102, 200))
+      # vbox.Add(self.tbtn)
       self.tbtn.Bind(wx.EVT_TOGGLEBUTTON,self.OnToggle)
 
-      self.btn = wx.Button(panel, -1, " Prediction ")
-      vbox.Add(self.btn, 0, wx.ALIGN_CENTER)
+      self.btn = wx.Button(panel, -1, " Prediction ",size=(100, 50), pos=(250, 200))
+      self.btn.SetBackgroundColour((255, 153, 0, 200))
+      # vbox.Add(self.btn)
       self.btn.Bind(wx.EVT_BUTTON, self.OnClicked_2)
 
       hbox = wx.BoxSizer(wx.HORIZONTAL)
