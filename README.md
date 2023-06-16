@@ -1,116 +1,103 @@
 # Weather-Forecast-And-Prediction-by-Machine-Learning
 
-![image](https://user-images.githubusercontent.com/37294801/83221305-09402d80-a1a8-11ea-83e4-79625d909a15.png)
-![image](https://user-images.githubusercontent.com/37294801/83221317-11986880-a1a8-11ea-914e-9747e9c71066.png)
-![image](https://user-images.githubusercontent.com/37294801/83221323-152bef80-a1a8-11ea-837b-492af14a426f.png)
-![image](https://user-images.githubusercontent.com/37294801/83221359-32f95480-a1a8-11ea-86a3-8afbf754a2af.png)
-![image](https://user-images.githubusercontent.com/37294801/83221420-5ae8b800-a1a8-11ea-9aa5-755cc495aa57.png)
-![image](https://user-images.githubusercontent.com/37294801/83221401-502e2300-a1a8-11ea-8639-19284354128f.png)
-
-
-**
+![Weather Forecast Image](https://user-images.githubusercontent.com/37294801/83221305-09402d80-a1a8-11ea-83e4-79625d909a15.png)
+![Image 1](https://user-images.githubusercontent.com/37294801/83221317-11986880-a1a8-11ea-914e-9747e9c71066.png)
+![Image 2](https://user-images.githubusercontent.com/37294801/83221323-152bef80-a1a8-11ea-837b-492af14a426f.png)
+![Image 3](https://user-images.githubusercontent.com/37294801/83221359-32f95480-a1a8-11ea-86a3-8afbf754a2af.png)
+![Image 4](https://user-images.githubusercontent.com/37294801/83221420-5ae8b800-a1a8-11ea-9aa5-755cc495aa57.png)
+![Image 5](https://user-images.githubusercontent.com/37294801/83221401-502e2300-a1a8-11ea-8639-19284354128f.png)
 
 ## Background
 
-**
-For the current situation, Hong Kong observatory conduct a traditional weather forecasting. There are four common methods to predict weather. The first method is climatology method that is reviewing weather statistics gathered over multiple years and calculating the averages.The second method is analog method that is to find a day in the past with weather similar to the current forecast. The third method is persistence and trends method that has no skill to predict the weather because it relies on past trends. The fourth method isnumerical weather prediction the is making weather predictions based on multiple conditions in atmosphere such as temperatures, wind speed, high-and low-pressure systems, rainfall, snowfall and other conditions.So,there are many limitations of these traditional methods. Not only It forecasts the temperature in the current month at most, but also it predicts without using machine learning algorithms.Therefore, my project is to increase the accuracy and predict weather in the future at least one month through applying machine learning techniques.
-
-**
+For the current situation, the Hong Kong Observatory conducts traditional weather forecasting using four common methods: climatology, analog, persistence and trends, and numerical weather prediction. However, these methods have limitations and do not utilize machine learning algorithms. This project aims to increase the accuracy of weather prediction by applying machine learning techniques to forecast weather conditions at least one month in advance.
 
 ## Objective (Brief)
 
-**
-There are two purposes of my project. One of the purposeis to forecast the status of weather in the August of specific year. I will demonstrate the result through using decision tree regression and show the output for the status of wet or heat. Another aim is to predict the temperature using different algorithms like linear regression, random forest regression and K-nearest neighbor regression. The output value should be numerical based on multiple extra factors like population density and air health quality.
+There are two purposes of this project. The first purpose is to forecast the status of weather in August of a specific year using decision tree regression. The second purpose is to predict the temperature using different algorithms such as linear regression, random forest regression, and K-nearest neighbor regression. The predictions will be based on multiple factors, including population density and air health quality.
 
-![enter image description here](https://lh3.googleusercontent.com/43WkMUHGBC12Fap74eYDH-rsIg7BgmaeAev2f_xhoa1hg678kmiQbIEawUfKkjOjsrvpzhzUIvy9 "experiment")
-
-**
+![Experiment Image](https://lh3.googleusercontent.com/43WkMUHGBC12Fap74eYDH-rsIg7BgmaeAev2f_xhoa1hg678kmiQbIEawUfKkjOjsrvpzhzUIvy9)
 
 ## Purpose (Detail)
 
-**
-To forecast the status of weather in the August of next year<br/>
-**ML Algorithm**: Decision Tree Regression<br/>
-**Status**: wet and heat <br/>
-**Output Value**: Yes / No<br/>
-To predict the temperature using Different Algorithms<br/>
-**ML Algorithms**: Linear Regression,
-	 	Random Forest Regression, K-Nearest Neighbor<br/>
-**Output Value**: Numerical<br/>
+To forecast the status of weather in August of the next year:
+- ML Algorithm: Decision Tree Regression
+- Status: Wet and Heat
+- Output Value: Yes / No
 
-**Algorithm - Decision Tree:**  builds regression or classification models in the form of a tree structure<br/>
-**Algorithm - Linear Regression:** performs the task to predict a dependent variable value (y) based on a given independent variable (x)<br/>
-**Algorithm - Random Forest Regression:** performing both regression and classification tasks using multiple decision trees and a statistical technique called bagging<br/>
-**Algorithm - K-Nearest Neighbor Regression**<br/>
+To predict the temperature using Different Algorithms:
+- ML Algorithms: Linear Regression, Random Forest Regression, K-Nearest Neighbor
+- Output Value: Numerical
 
-**Data Source:** Hong Kong Observatory, aqhi.gov.hk<br/>
-**Dynamic Data:** August of 1999 - 2019<br/>
-**Static Data:** June of 2014 - 2019<br/>
-
-**
+Algorithm Details:
+- Decision Tree: Builds regression or classification models in the form of a tree structure.
+- Linear Regression: Predicts a dependent variable value based on an independent variable.
+- Random Forest Regression: Performs regression and classification tasks using multiple decision trees and bagging.
+- K-Nearest Neighbor Regression
 
 ## Data Description:
 
-**
-**mean_temp:** mean air temperature<br/>
-**max_temp:** mean daily maximum air temperature<br/>
-**min_temp:** mean daily minimum air temperature<br/>
-**meanhum:** mean relative humidity<br/>
-**meandew:** mean dew point temperature<br/>
-**pressure:** mean daily air pressure<br/>
-**heat:** true when mean air temperature is over or equal to 30<br/>
-**wet:** true when mean relative humidity is over or equal to 80<br/>
-**Mean_cloud:** mean cloud<br/>
-**population:** population density<br/>
-**Sunshine_hour:** mean number of hour of sunshine<br/>
-**Wind_direction:** mean wind direction<br/>
-**Wind_speed:** mean wind speed<br/>
-**Air_health_quality:** mean daily air health quality<br/>
+The dataset includes the following variables:
+- `mean_temp`: Mean air temperature
+- `max_temp`: Mean daily maximum air temperature
+- `min_temp`: Mean daily minimum air temperature
+- `meanhum`: Mean relative humidity
+- `meandew`: Mean dew point temperature
+- `pressure`: Mean daily air pressure
+- `heat`: True when mean air temperature is over or equal to 30
+- `wet`: True when mean relative humidity is over or equal to 80
+- `mean_cloud`: Mean cloud coverage
+- `population`: Population density
+- `sunshine_hour`: Mean number of hours of sunshine
+- `wind_direction`: Mean wind direction
+- `wind_speed`: Mean wind speed
+- `air_health_quality`: Mean daily air health quality
 
-**
+## Data Source:
+
+The data for this project was obtained from the Hong Kong Observatory and aqhi.gov.hk.
 
 ## System Requirement:
 
-**
-Python 3.6<br/>
-BeautifulSoup<br/>
-Pandas<br/>
-Numpy<br/>
-Matplotlib<br/>
-Seaborn<br/>
-Openpyxl<br/>
-Sklearn<br/>
-wxPython<br/>
+Python 3.6 or above
 
-**
+The following Python libraries are required:
+- BeautifulSoup
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Openpyxl
+- Sklearn
+- wxPython
 
 ## Function of Program:
 
-**
-**‘Forecast’ Button**: Forecast the status of weather in the August of next year<br/>
-**‘Activate Auto-Forecast’ Button**: Periodically forecast the status of weather<br/>
-**‘Prediction’ Button**: Predict the mean temperature based on other factors<br/>
-
-**
+- **'Forecast' Button**: Forecasts the status of weather in August of the next year.
+- **'Activate Auto-Forecast' Button**: Periodically forecasts the status of weather.
+- **'Prediction' Button**: Predicts the mean temperature based on other factors.
 
 ## User Guide:
 
-**
-**Step 1**: Download & Install Python 3.6<br/>
-**Step 2**: Go to Terminal & Download Python Library (py -3.6 –m pip install ____)<br/>
-**Step 3**: Go to ‘Weather_Prediction’ folder & click GUI.cpython-36<br/>
-**Step 4**: The forecast result will be stored in ‘prediction’ folder. The prediction statistics will be stored in ‘statistics’ folder<br/>
+1. Download and install Python 3.6 or above.
+2. Open the terminal and install the required Python libraries using the following command: `pip install [library name]`
+3. Navigate to the 'Weather_Prediction' folder and run the GUI.cpython-36 file.
+4. The forecast results will be stored in the 'prediction' folder, and the prediction statistics will be stored in the 'statistics' folder.
 
-**
+## How to Contribute:
+
+Contributions are welcome! Here's how you can contribute to this project:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request describing your changes.
 
 ## Developer Tools:
 
-**
-**Programming Language**: Python<br/>
-**IDE**: PyCharm<br/>
-**GUI**: wxPython, wxFormBuilder<br/>
-**Web Scraping**: BeautifulSoup, ParseHub<br/>
-**Debugging & Testing**: Jupyter Notebook<br/>
-**Data Format**: Microsoft Excel<br/>
-
-```
+- Programming Language: Python
+- IDE: PyCharm
+- GUI: wxPython, wxFormBuilder
+- Web Scraping: BeautifulSoup, ParseHub
+- Debugging & Testing: Jupyter Notebook
+- Data Format: Microsoft Excel
